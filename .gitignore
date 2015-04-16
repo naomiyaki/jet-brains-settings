@@ -1,0 +1,14 @@
+# Jet Brains (IntelliJ) config
+# .gitignore
+
+componentVersions/
+disabled_plugins.txt
+disabled_update.txt
+eval/
+fileTemplates/
+idea14.key
+inspection/
+options/
+port
+quicklists/
+remoteTools/

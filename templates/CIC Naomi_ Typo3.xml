@@ -1,0 +1,9 @@
+<templateSet group="CIC Naomi: Typo3">
+  <template name="csc-t" value="&lt;div class=&quot;csc-typography&quot;&gt;&#10;  $END$&#10;&lt;/div&gt;" description="csc-typography div" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

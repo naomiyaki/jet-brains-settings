@@ -1,0 +1,40 @@
+<templateSet group="CIC Naomi: CSS">
+  <template name="sec" value="// $SECTION$&#10;// --------------------------------------------------------&#10;$END$" description="Commented Section Header" toReformat="false" toShortenFQNames="true">
+    <variable name="SECTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_PROPERTY_VALUE" value="true" />
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+      <option name="CSS_RULESET_LIST" value="true" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="sub" value="// $SUBSECTION$&#10;// --------------------------&#10;$END$" description="Commented Sub Section Header" toReformat="false" toShortenFQNames="true">
+    <variable name="SUBSECTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="CSS_PROPERTY_VALUE" value="true" />
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+      <option name="CSS_RULESET_LIST" value="true" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="resp" value="@include respond($PARAMETERS$) {&#10;  $END$&#10;}" description="Responsive Breakpoint Mixin Declaration" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_PROPERTY_VALUE" value="true" />
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+      <option name="CSS_RULESET_LIST" value="true" />
+      <option name="CSS" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
